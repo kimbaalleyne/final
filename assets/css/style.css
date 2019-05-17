@@ -296,6 +296,10 @@ footer p{
 	.c50, .c25, .c10{
 		width:75%;
 	}
+    
+    .c10 h4,{
+        font-size: 15px;
+    }
       
     .c25 p{
         padding-bottom: 20px;
@@ -377,6 +381,14 @@ footer p{
     
     #hero7{
         background-size:60%
+    }
+    
+    #cta p{
+    font-size: 20px;
+    }
+    
+    #port h1, #port h2{
+    font-size: 40px;
     }
 }
     
