@@ -96,4 +96,16 @@ Her books have sold over 100 million copies worldwide.</p>
     <br>
     <p>&copy; May 2019. All rights reserved to Kimba Alleyne. </p>
 </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
 </html>

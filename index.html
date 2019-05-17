@@ -4,17 +4,7 @@
         <title>Suzanne Collins</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="assets/css/style.css">
-    <style>
-		#container9{margin:0 auto; max-width:600px;}
-		#display{max-width:100%;}
-		#thumbs{list-style: none; padding:0px; text-align: center;}
-		li{ display: inline-block;}
-		#thumbs img{
-			max-width:50px;
-			border:1px solid #f00;
-		}
 
-	</style>
 </head>
 
 <body>
@@ -108,5 +98,17 @@
     <br>
     <p>&copy; 2019. All rights reserved to Kimba Alleyne. </p>
 </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
 </html>
     
