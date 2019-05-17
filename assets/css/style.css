@@ -1,0 +1,382 @@
+*{
+	font-family:avenir;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+.container,.container3, .container5,{
+    background: #F8E4CC;
+}
+
+.container2, .container4{
+    background:#E1D7D1;
+}
+
+.container6{
+    background: #000;
+}
+
+.container7{
+    background: #fff;
+}
+
+header{
+    padding : 20px;
+    font-size: 20px;
+    text-align: left;
+    background: #F8E4CC;
+}
+
+footer{
+    padding: 5px;
+    background: #F8E4CC; 
+    text-align: center;
+    
+}
+
+h1{
+    font-family: signpainter; 
+    font-size: 70px;
+    color:#000;
+}
+
+h2{
+	color:#8A1F15;
+	font-size:30px;
+	font-weight:bold;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+
+#port h1, #port p{
+	text-align:center;
+	max-width:1000px;
+	margin:20px auto;
+    color:white;
+}
+
+#port p{
+    font-size: 20px;
+}
+
+#port h2{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+.c10 p{
+    color: white;
+}
+
+.col p{
+    font-size:17px;
+}
+
+.col c2{
+    background:#fff;
+}
+
+.c2{
+	width:50%;
+}
+
+img{
+	max-width: 100%;
+}
+
+.row2{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.row2:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#hero7{
+	background:url(../img/books.jpg);
+	background-size:cover;
+	background-position:center bottom;
+	background-attachment: fixed;
+	height:calc(100vh - 120px);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero7 div{
+	background:rgba(255,255,255,.60);
+	padding:15px;
+	text-align: center;
+	max-width:1000px;
+	border-radius:15px;
+}
+
+
+
+/*about*/
+.c35{
+    background: #fff;
+    border: 3px solid #333;
+    font-size:14px;
+    margin-top: 40px;
+    min-height: 550px;
+}
+
+h3{
+    color:#8A1F15;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.c75 {
+    width:30%;
+}
+
+.c35{
+    width:70%;
+    column-count: 2;
+    
+}
+
+
+/*
+div{
+	background:rgba(200, 200, 200, .5);
+}
+*/
+
+/*nav*/
+header{
+	border-bottom:3px solid #333;
+	position:relative;
+}
+
+#mobilenav{
+	display:none;
+}
+
+nav{
+	position:absolute;
+	top:45px;
+	right:20px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	display: inline-block;
+    border-radius: 12px;
+	background: #8A1F15;
+    padding:7px 7px;
+	text-decoration: none;
+	font-family: avenir;
+    color:#fff;
+}
+
+nav a:hover{
+	border:2px solid #fff;
+	color:#fff;
+}
+
+/*columns*/
+.container,.container2,.container3,.container4,.container5,.container6,.container7, header, footer{
+	max-width:1536px;
+	margin:0 auto;
+}
+
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.col{
+	float:left;
+	padding:25px;
+}
+
+
+.c50{
+	width:25%;
+}
+
+.c25{
+	width:25%;
+
+}
+
+.c10{
+    width: 33.33333%
+    
+}
+
+
+/*brand*/
+.hero, .hero3{
+	background: #fff;
+}
+
+.hero2{
+    background:#E1D7D1;
+}
+
+.bol{
+    float: left;
+    padding: 40px;
+}
+
+
+.row1:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+#cta p{
+    text-align: center;
+    font-family: avenir;
+    font-size: 30px;
+    
+}
+
+footer{
+	padding:20px 0px;
+	text-align: center;
+}
+
+footer p{
+	font-size:14px;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    h2{
+        font-size: 20px;
+    } 
+    
+    header{
+       font-size: 16px; 
+    }
+    
+    .col p{
+    font-size:10.5px;
+}
+   
+    
+
+    
+
+    
+  
+        
+
+@media screen and (max-width:575px){
+	.col{
+		float:none;
+		padding:10px;
+	}
+	.c50, .c25, .c10{
+		width:75%;
+	}
+      
+    .c25 p{
+        padding-bottom: 20px;
+        border-bottom: 2px solid #524846;
+    }
+    
+	h2{
+		color:#CC582A;
+        font-size:25px;
+        text-align: center;
+        padding-bottom: 0px; 
+	}
+	
+	nav{
+		display: none;
+		position:static;
+		background:#fff;
+	}
+	nav li{
+		display:block;
+	}
+	nav a{
+		width:100%;
+		display:block;
+		border:none;
+		border-top:1px solid #c00;
+		color:#fff;
+	}
+	
+	#mobilenav{
+		display:block;
+		position:absolute;
+		top:15px;
+		right:12px;
+	}
+	
+	#mobilenav a{
+		text-decoration: none;
+		color:#8A1F15;
+		padding:10px;
+		border:1px solid #8A1F15;
+		border-radius:5px;
+	}
+    #mobilenav a:hover{
+	   border:2px solid #fff;
+	   color:#CC582A;
+    }
+    
+    .col p{
+        font-size:15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	
+    .bol{
+        float:none;
+        padding:20px;
+    }
+    
+    .c35{
+        border:none;
+        margin-top:none;
+        column-count: 1;
+        width:100%;
+        
+    }
+    
+    h3{
+        font-size:30px;
+    }
+    
+    .c75{
+        width:100%;
+    }
+    
+    .c2 h1{
+        font-size:30px; 
+    }
+    
+    #hero7{
+        background-size:60%
+    }
+}
+    
